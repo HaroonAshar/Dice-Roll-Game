@@ -67,7 +67,7 @@ for player in players:
 
 winner=max(players,key=lambda x:x['score'])
 
-print(f"CONGRATULATIONS! {winner['name']}! YOU WON!\n")
+print(f"CONGRATULATIONS!! {winner['name']}! YOU WON!\n")
 
 print(players)
 
